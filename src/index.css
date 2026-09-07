@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-serif {
+    font-family: 'EB Garamond', 'Noto Serif SC', Georgia, serif;
+  }
+  .font-cursive {
+    font-family: 'Zhi Mang Xing', cursive;
+  }
+  .font-brush {
+    font-family: 'Ma Shan Zheng', cursive;
+  }
+  .font-wild {
+    font-family: 'Liu Jian Mao Cao', cursive;
+  }
+  .font-hanzi {
+    font-family: 'Noto Serif SC', serif;
+  }
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(168, 162, 158, 0.5);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(120, 113, 108, 0.7);
+}

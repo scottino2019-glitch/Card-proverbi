@@ -1,0 +1,6 @@
+{
+  "name": "Carte Proverbi Cinesi",
+  "description": "Crea, personalizza ed esporta in PNG splendide carte colorate con proverbi cinesi, calligrafia corsiva artistica, traduzione e spiegazione.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
